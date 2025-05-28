@@ -32,7 +32,7 @@ Follow these steps to get the entire application suite up and running on your lo
 It's crucial to clone this repository *with its submodules* to ensure all application code is pulled down correctly.
 
 ```bash
-git clone --recurse-submodules [https://github.com/teoMarinov/Adstart.git](https://github.com/teoMarinov/Adstart.git)
+git clone --recurse-submodules https://github.com/teoMarinov/Adstart.git
 
 cd Adstart
 ```
