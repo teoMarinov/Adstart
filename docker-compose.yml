@@ -1,0 +1,31 @@
+services:
+  adstart-server:
+    build:
+      context: ./Adstart-Media-backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./Adstart-Media-backend/.env
+  adstart-frontend:
+    build:
+      context: ./Adstart-Media-Frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./Adstart-Media-Frontend/.env
+    volumes:
+      - ./Adstart-Media-Frontend:/app
+      - /app/node_modules
+  adstart-admin:
+    build:
+      context: ./Adstart-Media-Admin
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    env_file:
+      - ./Adstart-Media-Admin/.env
+    volumes:
+      - ./Adstart-Media-Admin:/app
+      - /app/node_modules

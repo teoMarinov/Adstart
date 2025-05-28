@@ -1,0 +1,9 @@
+[submodule "Adstart-Media-Frontend"]
+	path = Adstart-Media-Frontend
+	url = https://github.com/teoMarinov/Adstart-Media-Frontend.git
+[submodule "Adstart-Media-Backend"]
+	path = Adstart-Media-Backend
+	url = https://github.com/teoMarinov/Adstart-Media-Backend.git
+[submodule "Adstart-Media-Admin"]
+	path = Adstart-Media-Admin
+	url = https://github.com/teoMarinov/Adstart-Media-Admin.git
