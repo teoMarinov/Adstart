@@ -1,12 +1,12 @@
 services:
   adstart-server:
     build:
-      context: ./Adstart-Media-backend
+      context: ./Adstart-Media-Backend
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
     env_file:
-      - ./Adstart-Media-backend/.env
+      - ./Adstart-Media-Backend/.env
   adstart-frontend:
     build:
       context: ./Adstart-Media-Frontend
