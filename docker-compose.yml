@@ -23,7 +23,7 @@ services:
       context: ./Adstart-Media-Admin
       dockerfile: Dockerfile
     ports:
-      - "5173:5173"
+      - "4173:4173"
     env_file:
       - ./Adstart-Media-Admin/.env
     volumes:
