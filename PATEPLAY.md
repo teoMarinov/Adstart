@@ -43,14 +43,14 @@ The backend API is hosted at [https://api.brix.teodormarinov.online](https://api
 
 Here's a list of the available endpoints in the controllers:
 
-#### AuthController ([`AuthController.java`](Adstart-Media-Backend/src/main/java/com/teodor/backend/controller/AuthController.java))
+#### AuthController ([`AuthController.java`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/controller/AuthController.java))
 
 *   `POST /auth/login`: Authenticates a user and returns a JWT token.
     *   **Publicly Accessible**
     *   Requires a `username` and `password` in the request body.
     *   Returns a JWT token in the response.
 
-#### QuoteRequestController ([`QuoteRequestController.java`](Adstart-Media-Backend/src/main/java/com/teodor/backend/controller/QuoteRequestController.java))
+#### QuoteRequestController ([`QuoteRequestController.java`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/controller/QuoteRequestController.java))
 
 *   `POST /quote-request`: Creates a new quote request.
     *   **Publicly Accessible**
@@ -61,7 +61,7 @@ Here's a list of the available endpoints in the controllers:
 *   `GET /quote-request/{id}`: Retrieves a quote request by its ID.
     *   **Requires JWT Token**
 
-#### SubscriptionController ([`SubscriptionController.java`](Adstart-Media-Backend/src/main/java/com/teodor/backend/controller/SubscriptionController.java))
+#### SubscriptionController ([`SubscriptionController.java`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/controller/SubscriptionController.java))
 
 *   `POST /subscribe`: Subscribes an email to the newsletter.
     *   **Publicly Accessible**
