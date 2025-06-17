@@ -1,8 +1,8 @@
-# Backend Project Documentation
+# Pateplay Backend Project Introduction
 
 ## Overview
 
-This project is a CRUD application built with Java and Spring Boot, designed to handle quote requests. While the developer has more experience with Node.js and TypeScript, this project aims to follow best practices for Java development.
+This project is a CRUD application built with Java and Spring Boot, designed to handle quote requests. I have more experience with Node.js and TypeScript, but this project was required to be with Java, it aims to follow best practices for the framework.
 
 For more information about the overall project setup and architecture, see the main [`README.md`](README.md). For details on setting up and running the backend specifically, refer to [`Adstart-Media-Backend/README.md`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/README.md).
 
