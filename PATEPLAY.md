@@ -4,11 +4,11 @@
 
 This project is a CRUD application built with Java and Spring Boot, designed to handle quote requests. While the developer has more experience with Node.js and TypeScript, this project aims to follow best practices for Java development.
 
-For more information about the overall project setup and architecture, see the main [`README.md`](README.md). For details on setting up and running the backend specifically, refer to [`Adstart-Media-Backend/README.md`](Adstart-Media-Backend/README.md).
+For more information about the overall project setup and architecture, see the main [`README.md`](README.md). For details on setting up and running the backend specifically, refer to [`Adstart-Media-Backend/README.md`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/README.md).
 
 ## Authentication
 
-The project supports admin authentication using JWT (JSON Web Tokens). The security configuration, including JWT handling, can be found in [`SecurityConfig.java`](Adstart-Media-Backend/src/main/java/com/teodor/backend/config/SecurityConfig.java).
+The project supports admin authentication using JWT (JSON Web Tokens). The security configuration, including JWT handling, can be found in [`SecurityConfig.java`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/config/SecurityConfig.java).
 
 ## Project Structure
 
@@ -26,14 +26,14 @@ The project follows the Model-View-Controller (MVC) architectural pattern, with 
 
 ## Main Purpose: Handling Quote Requests
 
-The primary function of this application is to manage quote requests. You can interact with the application through the frontend UI, which is accessible at [https://brix.teodormarinov.online/](https://brix.teodormarinov.online/). The frontend code is located in the [`Adstart-Media-Frontend`](Adstart-Media-Frontend) directory.
+The primary function of this application is to manage quote requests. You can interact with the application through the frontend UI, which is accessible at [https://brix.teodormarinov.online/](https://brix.teodormarinov.online/). The frontend code is located in the [`Adstart-Media-Frontend`](https://github.com/teoMarinov/Adstart-Media-Frontend) directory.
 
 ## Quote Request Flow
 
-1.  **Data Validation:** When a user submits a quote request through the frontend, the data is validated using the [`QuoteRequestDto.java`](Adstart-Media-Backend/src/main/java/com/teodor/backend/dto/QuoteRequestDto.java) DTO in the backend. This ensures that the input data is in the correct format and meets the required criteria.
-2.  **API Handling:** The API request is handled by the [`QuoteRequestController.java`](Adstart-Media-Backend/src/main/java/com/teodor/backend/controller/QuoteRequestController.java). This controller exposes the API endpoints for creating, retrieving, and managing quote requests.
-3.  **Business Logic:** The [`QuoteRequestController.java`](Adstart-Media-Backend/src/main/java/com/teodor/backend/controller/QuoteRequestController.java) uses the [`QuoteRequestService.java`](Adstart-Media-Backend/src/main/java/com/teodor/backend/service/QuoteRequestService.java) to handle the business logic for the request. This service contains the core logic for creating, retrieving, and updating quote requests.
-4.  **Database Interaction:** The [`QuoteRequestService.java`](Adstart-Media-Backend/src/main/java/com/teodor/backend/service/QuoteRequestService.java) uses the `JpaRepository` (specifically, [`QuoteRequestRepository`](Adstart-Media-Backend/src/main/java/com/teodor/backend/repository/QuoteRequestRepository.java)) to interact with the database and persist the quote request data.
+1.  **Data Validation:** When a user submits a quote request through the frontend, the data is validated using the [`QuoteRequestDto.java`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/dto/QuoteRequestDto.java) DTO in the backend. This ensures that the input data is in the correct format and meets the required criteria.
+2.  **API Handling:** The API request is handled by the [`QuoteRequestController.java`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/controller/QuoteRequestController.java). This controller exposes the API endpoints for creating, retrieving, and managing quote requests.
+3.  **Business Logic:** The [`QuoteRequestController.java`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/controller/QuoteRequestController.java) uses the [`QuoteRequestService.java`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/service/QuoteRequestService.java) to handle the business logic for the request. This service contains the core logic for creating, retrieving, and updating quote requests.
+4.  **Database Interaction:** The [`QuoteRequestService.java`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/service/QuoteRequestService.java) uses the `JpaRepository` (specifically, [`QuoteRequestRepository`](https://github.com/teoMarinov/Adstart-Media-Backend/blob/main/src/main/java/com/teodor/backend/repository/QuoteRequestRepository.java)) to interact with the database and persist the quote request data.
 
 ## Try it Out Yourself
 
